@@ -117,7 +117,7 @@ namespace LifeSims2.Game
         }
 
         /// <summary>
-        /// // Event Loop dependent on age
+        /// // Event Loop dependent on age and random numbers
         /// </summary>
         private void Events() 
         {
@@ -127,7 +127,9 @@ namespace LifeSims2.Game
             switch (random)
             {
                 case 0:
+
                     Console.WriteLine("You Broke your parents car at the age of " + Age);
+
                     break;
                 case 1:
                     break;
