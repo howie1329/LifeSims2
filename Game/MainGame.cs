@@ -130,6 +130,9 @@ namespace LifeSims2.Game
                     Console.WriteLine("You Broke your parents car at the age of " + Age);
                     break;
                 case 1:
+                    Console.WriteLine("You got into a fight....");
+                    Health = Health - 4;
+                    Looks = Looks - 5;
                     break;
                 case 2:
                     break;
