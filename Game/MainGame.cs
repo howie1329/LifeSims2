@@ -127,7 +127,7 @@ namespace LifeSims2.Game
             switch (random)
             {
                 case 0:
-                    Console.WriteLine("You Broke your parents");
+                    Console.WriteLine("You Broke your parents car at the age of " + Age);
                     break;
                 case 1:
                     break;
