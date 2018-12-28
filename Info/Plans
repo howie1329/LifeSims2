@@ -1,0 +1,15 @@
+enum States
+Dying - 4 per turn
+Sick - 2 per turn
+Healthy - 0 per turn
+
+random number between 0 - 10
+
+array with sickness
+flu
+cold
+HIV
+Aids
+Healthy
+Healthy 
+Healthy
